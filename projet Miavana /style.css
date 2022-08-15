@@ -1,0 +1,536 @@
+/*header l'hotel parfait à Madagascar*/
+html
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	font-family:"verdana",sans-serif;
+	letter-spacing: 1px;
+}
+.header{
+
+	color: #fff;
+	background:linear-gradient(to bottom ,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(image/miavana-intro-2-scaled.jpeg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+	padding: 0 120px;
+}
+.entete{
+	color: #fff;
+	padding: 0px; 
+	overflow: hidden;
+	height:80px;
+	display: flex;
+	align-items: center;
+}
+.entete a
+{
+	text-decoration: none;
+	color: inherit;
+
+}
+.titre{
+	font-family:"Snell Roundhand",sans-serif;
+	float: left;
+	margin: 0;
+	text-transform: capitalize;
+	font-weight: 100;
+	font-style: italic;
+	height: 50px;
+}
+.nav_menu
+{
+	display: flex;
+	float: left; 
+	margin:0 50px;
+	text-align: center;	
+	position: relative;
+	height: 50px;
+
+
+}
+.nav_menu a
+{
+	display:inline-flex;
+	align-items: center;
+	height: 100%;
+	font-family: "Gulim",sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 0 1.2em;
+	color: rgba(255, 255, 255, .7);
+	text-decoration: none;
+	box-sizing: border-box;
+	transition:.6s;
+}
+.nav_menu a:hover{
+		color:#fff;
+	
+}
+.botton-reserve
+{
+	font-family: "Open sans",sans-serif;
+	border: 1px  solid ;
+	padding: 16px 32px;
+	float: right;
+	display: inline-block;
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
+	border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 18px;
+    right: 120px;
+    transition:.6s;
+}
+
+.botton-reserve:hover
+{
+	transition: 0.5s;
+	color: black;
+	background: white;
+	border: none;
+}
+
+.header-titre
+{
+	font-family: serif;
+	font-size: 70px;
+	font-weight: 400;
+	margin: 15.5% 0 0 0;
+	width: 50%;
+}
+
+.para-header{
+	font-size:15px;
+	font-weight: 100;
+	width: 40%;
+	font-weight: initial ;
+	overflow-wrap:break-word ;
+	line-height:1.6;
+	vertical-align: baseline;
+	margin-bottom: 24px;
+}
+.botton-pousse{
+	font-family:"Open sans", sans-serif;
+	text-decoration: none;
+	color: #000;
+	background:white;
+	font-size: 12px; 
+	font-weight: 600;
+	padding: 18px 34px;
+	border-radius: 25px;
+	letter-spacing: 2px;
+	transition:.6s;
+	
+}
+.botton-pousse:hover{
+	background: rgba(255, 255, 255, .8);
+}
+
+
+
+
+
+
+/*contenu 1 decouvrez la vue de l'ile*/
+
+.contenu{
+	display: flex;
+	padding: 100px 120px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	color: #545454;
+
+}
+.contenu1-1{
+	
+	flex-basis:40%;
+	min-width:auto;
+	padding: 0 10px 0 0;
+	padding-right: 15px;
+	line-height: 1.5;
+
+
+}
+.contenu1-1 img{
+	width: 100%;
+}
+
+.contenu1-2{
+
+	flex-basis:70%;
+	min-width: auto;
+	margin-left: 15px;
+	padding: 0 0 0 15px;
+	line-height: 1.5;
+	
+}
+.contenu1-2 img{
+	width: 100%;
+}
+.contenu1-2 h1{
+	color: #212121;
+	margin-top: 0;
+	font-size: 2.625rem;
+	font-weight: 400;
+}
+.botton1{
+	
+	padding: 18px 30px;
+	background: #2A2A2A;
+	text-align: center;
+	width: 35%;
+	border-radius: 29px;
+	font-size: 0.75rem;
+	transition: .6s;
+	text-transform: uppercase;
+}
+.botton1:hover
+{
+	background: rgba(0, 0, 0, 0.7);
+}
+.contenu1-1 a
+{	
+	display: block;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;	
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+/*Contenu2 avec commoditer et installation*/
+.contenu2{
+	position: relative;
+	padding: 0 120px 100px 120px;
+	line-height: 1.5;
+	color: #545454;
+	box-sizing: border-box;
+}
+.contenu2-1
+{
+	width: 50%;
+
+}
+
+.contenu2-1 h1
+{
+	line-height: 1.1;
+	margin: 0 0 20px 0;
+	font-size: 2.625rem;
+	font-weight: 400;
+	color: #212121
+
+}
+.botton2-1 {
+	display: block;
+	position: absolute;
+	right: 120px;
+	top: 105px;
+	padding: 18px 30px;
+	background: #2A2A2A;
+	text-align: center;
+	width: 7%;
+	border-radius: 29px;
+	font-size: 0.75rem;
+	transition: .6s;
+}
+
+.botton2-1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+.botton2-1:hover{
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.contenu2-2{
+	display: flex;
+	margin-top: 40px;
+}
+.contenu2-image{
+	
+	padding: 15px;
+	flex-basis: 35%;
+	min-width: 200px;
+
+}
+.contenu2-image img{
+	width: 100%;
+	height: 400px;
+}
+.contenu2-2 h2{
+	font-size: 1.75rem;
+    font-family: 'DM Serif Display',serif;
+    line-height: 1.1;
+    color: #212121;
+    font-weight: 300;
+    margin-top: 0;
+}
+.contenu2-image p{
+	margin-bottom: 20px;
+}
+.botton-img{
+	font-family: "Open sans" ,sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color:black;
+	font-weight: 600;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #212121;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+/*contenu3 avec nos photos d'interieurs*/
+.contenu3{
+	margin:0 120px 0 120px;
+	text-align: center;
+	color: #545454;
+}
+.contenu3 h1{
+	line-height: 1.1;
+	margin: 0 0 20px 0;
+	font-size: 2.625rem;
+	font-weight: 400;
+	color: #212121;
+
+}
+.galerie{
+	display: flex;
+}
+.contenu3-image1{
+	
+	display: flex;
+	flex-wrap:wrap;
+	width: 40%;
+}
+.contenu3-image1 img{
+	width:100%;
+	padding-bottom: 10px;
+}
+.contenu3-image2{
+	width: 60%;
+	margin-left: 20px;
+	padding-bottom: 5px;
+}
+.contenu3-image2 img{
+	width: 100%;
+	
+}
+.contenu3-image3{
+	display: flex;
+	flex-wrap:wrap;
+	width:60%;
+	margin-right: 10px;
+}
+.contenu3-image3 img{
+	width: 100%;
+	padding-bottom: 10px;
+}
+.contenu3-image4{
+	display: flex;
+	flex-wrap:wrap;
+	width: 40%;
+	margin-left: 10px;
+}
+.contenu3-image4 img{
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+
+
+
+/*contenu4 avec les commentaire de nos clients*/
+.contenu4{
+	padding: 100px 120px 0 120px;
+}
+.contenu4-1{
+	display:flex;
+	
+	margin-top: 45px;
+
+}
+.star{
+	width: 15px;
+	height: 15px;
+}
+.pdp img{
+	width: 50px;
+	border-radius: 40px;
+	margin-right: 10px;
+
+}
+.contenu4-commnt1{
+	flex-basis: 50%;
+	min-width: auto;
+	padding-right: 45px;
+}
+
+.contenu4-commnt2{
+	flex-basis: 50%;
+	min-width: auto;
+	padding-left: 45px;
+}
+.commentaire{
+	padding-left: 5px;
+	padding-bottom: 30px;
+}
+.commentaire p{
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #545454;
+
+}
+.pdp{
+	display: inline-flex;
+	align-items: center;
+}
+
+
+
+/*section contact des footer*/
+.contact-footer{
+	height: 628px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background:linear-gradient(to bottom ,rgba(53, 54, 58, 0.7),rgba(53, 54, 58,0.6)),url(image/DJI_0345-scaled.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin-top: 120px;
+	color: white;
+}
+.titre-footer{
+	line-height: 1.1;
+	font-family:'DM Serif Display',serif;
+    margin: 0 0 20px 0;
+    font-size: 2.625rem;
+    font-weight: 400;
+    color: white;
+}
+.contact-footer p{
+	color: white;
+	margin-bottom:100px;
+}
+.contact-footer h2{
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.numero img{
+	
+	width: 50px;
+}
+.numero span{
+	font-size: 46px;
+	padding-left: 16px;
+	line-height: 1em;
+	font-weight: 600;
+}
+.contact-footer div{
+	height: 320px;
+}
+
+/*section footer */
+.footer
+{
+	padding: 104px 40px 80px 40px;
+	display: grid;
+	align-items: flex-start;
+	grid-template-columns: repeat( 4,1fr );
+	grid-column-gap: 24px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+	color: #545454;
+}
+.contenu-footer{
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 1.5;
+}
+.contenu-footer h2
+{
+	font-family: 'DM Serif Display',serif;
+	font-size: 22px;
+	font-weight: 300;
+	overflow-wrap: break-word;
+}
+.contenu-footer li{
+	list-style: none;
+	cursor: pointer;
+}
+.contenu-footer img{
+	width: 30px;
+	padding-right:10px;
+}
+.footer-fin p{
+	font-size: 13px;
+	margin: 0;
+}
+.footer-fin {
+	color: #545454;
+	padding: 20px 40px;
+	border-top: 1px solid rgba(54, 54, 54, .1);
+	text-align: center;
+}
+
+@media (max-width: 1090px){
+	.header,.contenu, .contenu2, .contenu3, .contenu4, .contact-footer{
+		padding: 20px 20px;
+	}
+	.botton-reserve{
+		right: 20px;
+		top: 38px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+z

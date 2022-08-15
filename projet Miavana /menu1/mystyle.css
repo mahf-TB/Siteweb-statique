@@ -1,0 +1,319 @@
+
+html
+{
+	box-sizing: border-box;
+}
+body,p
+{
+	margin: 0;
+	font-family:"verdana",sans-serif;
+	letter-spacing: 1px;
+}
+
+.header{
+
+	color: #fff;
+	background:linear-gradient(to bottom ,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../image/3-A-Private-Villas-scaled.jpeg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 800px;
+	padding: 0 120px;
+}
+.entete{
+	color: #fff;
+	padding: 0px; 
+	overflow: hidden;
+	height:80px;
+	display: flex;
+	align-items: center;
+}
+.entete a
+{
+	text-decoration: none;
+	color: inherit;
+
+}
+.titre{
+	font-family:"Snell Roundhand",sans-serif;
+	float: left;
+	margin: 0;
+	text-transform: capitalize;
+	font-weight: 100;
+	font-style: italic;
+	height: 50px;
+}
+.nav_menu
+{
+	display: flex;
+	float: left; 
+	margin:0 50px;
+	text-align: center;	
+	position: relative;
+	height: 50px;
+
+
+}
+.nav_menu a
+{
+
+	display: inline-flex;
+	align-items: center;
+	height: 100%;
+	font-family: "Gulim",sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 0 1.2em;
+	color: rgba(255, 255, 255, .7);
+	text-decoration: none;
+	
+
+}
+.nav_menu a:hover{
+	color:#fff;
+	
+}
+.botton-reserve
+{
+	font-family: "Open sans",sans-serif;
+	border: 1px  solid ;
+	padding: 16px 32px;
+	float: right;
+	display: inline-block;
+	font-size: 0.7rem;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 600;
+	border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 18px;
+    right: 120px;
+    transition:.6s;
+}
+
+.botton-reserve:hover
+{
+	color: black;
+	background: white;
+	border: none;
+}
+
+.header-titre
+{
+	font-family: serif;
+	font-size: 70px;
+	font-weight: 400;
+	margin: 20.5% 0 0 0;
+	width: 50%;
+}
+
+.para-header{
+	font-size:17px;
+	width: 50%;
+	font-weight: initial ;
+	overflow-wrap:break-word ;
+	line-height:1.4;
+	vertical-align: baseline;
+	margin-bottom: 24px;
+}
+
+
+
+/* -------------------style des contenu1 avec tous les chambres-----------------------*/
+.contenu1{
+	padding: 100px 120px 0 120px;
+	position: relative;
+	line-height: 1.5;
+	color: #545454;
+	box-sizing: border-box;
+}
+.contenu1-titre{
+	width: 50%;
+	margin-bottom: 40px;
+}
+.contenu1-titre h1
+{
+	line-height: 1.1;
+	margin: 0 0 20px 0;
+	font-size: 2.625rem;
+	font-weight: 400;
+	color: #212121
+
+}
+.botton1 {
+	display: block;
+	position: absolute;
+	right: 120px;
+	top: 182px;
+	padding: 18px 30px;
+	background: #2A2A2A;
+	text-align: center;
+	width: 7%;
+	border-radius: 29px;
+	font-size: 0.75rem;
+	transition: .6s;
+
+}
+.botton1:hover{
+	background: rgba(0, 0, 0, 0.7);
+}
+.botton1 a{
+	text-decoration: none;
+	color: white;
+	font-weight:500;
+}
+
+
+.contenu1-1{
+	display:flex ;
+	margin-bottom:30px;
+}
+.contenu1-image
+{
+	
+	padding: 15px;
+	flex-basis: 50%;
+	min-width: 200px;
+}
+.contenu1-image p{
+	padding: 10px 0 15px 0;
+}
+.contenu1-image img{
+	width: 100%;
+	height: 400px;
+}
+.contenu1-image h1
+{
+
+	font-size: 1.75rem;
+    font-family: 'DM Serif Display',serif;
+    line-height: 1.1;
+    color: #212121;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.botton-img{
+	font-family: "Open sans" ,sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color:#212121;
+	font-weight: 600;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #212121;
+	letter-spacing: 2px;
+
+}
+
+
+
+/*section contact des footer*/
+.contact-footer{
+	height: 628px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background:linear-gradient(to bottom ,rgba(53, 54, 58, 0.7),rgba(53, 54, 58,0.6)),url(../image/DJI_0345-scaled.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin-top: 120px;
+	color: white;
+}
+.titre-footer{
+	line-height: 1.1;
+	font-family:'DM Serif Display',serif;
+    margin: 0 0 20px 0;
+    font-size: 2.625rem;
+    font-weight: 400;
+    color: white;
+}
+.contact-footer p{
+	color: white;
+	margin-bottom:100px;
+}
+.contact-footer h2{
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.numero img{
+	color: white;
+	width: 50px;
+}
+.numero span{
+	font-size: 46px;
+	padding-left: 16px;
+	line-height: 1em;
+	font-weight: 600;
+}
+.contact-footer div{
+	height: 320px;
+}
+
+/*section footer */
+.footer
+{
+	padding: 104px 40px 80px 40px;
+	display: grid;
+	align-items: flex-start;
+	grid-template-columns: repeat( 4,1fr );
+	grid-column-gap: 24px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+	color: #545454;
+
+}
+.contenu-footer{
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 1.5;
+}
+.contenu-footer h2
+{
+	font-family: 'DM Serif Display',serif;
+	font-size: 22px;
+	font-weight: 300;
+	overflow-wrap: break-word;
+}
+.contenu-footer li{
+	list-style: none;
+}
+.contenu-footer img{
+	width: 30px;
+	padding-right:10px;
+	padding-top: 10px;
+}
+.footer-fin {
+	font-size: 13px;
+	color: #545454;
+	padding: 20px 40px;
+	border-top: 1px solid rgba(54, 54, 54, .1);
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
